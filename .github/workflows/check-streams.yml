@@ -1,0 +1,45 @@
+name: Check FTA Playlist Streams
+
+on:
+  schedule:
+    # Every Sunday at 02:00 UTC (09:00 WIB)
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-streams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check FTA streams and rebuild playlist
+        id: check
+        continue-on-error: true
+        run: python3 scripts/check_streams.py
+
+      - name: Handle runner geo-block guard gracefully
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "Stream check guard triggered or failed; keeping existing playlist.m3u unchanged."
+          exit 0
+
+      - name: Commit updated playlist if changed
+        run: |
+          if git diff --quiet playlist.m3u README.md; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u README.md
+          git commit -m "chore: update verified FTA playlist"
+          git push

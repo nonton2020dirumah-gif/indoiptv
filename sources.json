@@ -1,0 +1,92 @@
+[
+  {
+    "name": "TVRI Nasional",
+    "group": "TV Nasional",
+    "tvg_id": "TVRI.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
+  },
+  {
+    "name": "TVRI World",
+    "group": "TV Nasional",
+    "tvg_id": "TVRIWorld.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8"
+  },
+  {
+    "name": "CNN Indonesia",
+    "group": "Berita",
+    "tvg_id": "CNNIndonesia.id",
+    "url": "https://video.detik.com/livecnn/smil:cnntv/playlist.m3u8"
+  },
+  {
+    "name": "CNBC Indonesia",
+    "group": "Berita",
+    "tvg_id": "CNBCIndonesia.id",
+    "url": "https://video.detik.com/livecnbc/smil:cnbctv/playlist.m3u8"
+  },
+  {
+    "name": "Metro TV",
+    "group": "Berita",
+    "tvg_id": "MetroTV.id",
+    "url": "https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8"
+  },
+  {
+    "name": "BTV",
+    "group": "Berita",
+    "tvg_id": "BTV.id",
+    "url": "https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8"
+  },
+  {
+    "name": "Nusantara TV",
+    "group": "TV Nasional",
+    "tvg_id": "NusantaraTV.id",
+    "url": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8"
+  },
+  {
+    "name": "DAAI TV",
+    "group": "TV Nasional",
+    "tvg_id": "DAAITV.id",
+    "url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8"
+  },
+  {
+    "name": "TVRI Jakarta",
+    "group": "TV Daerah",
+    "tvg_id": "TVRIJakarta.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8"
+  },
+  {
+    "name": "TVRI Jawa Barat",
+    "group": "TV Daerah",
+    "tvg_id": "TVRIJabar.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8"
+  },
+  {
+    "name": "TVRI Jawa Tengah",
+    "group": "TV Daerah",
+    "tvg_id": "TVRIJateng.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8"
+  },
+  {
+    "name": "TVRI Jawa Timur",
+    "group": "TV Daerah",
+    "tvg_id": "TVRIJatim.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8"
+  },
+  {
+    "name": "TVRI Yogyakarta",
+    "group": "TV Daerah",
+    "tvg_id": "TVRIYogyakarta.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8"
+  },
+  {
+    "name": "TVRI Bali",
+    "group": "TV Daerah",
+    "tvg_id": "TVRIBali.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8"
+  },
+  {
+    "name": "TVRI Sumatera Utara",
+    "group": "TV Daerah",
+    "tvg_id": "TVRISumut.id",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8"
+  }
+]

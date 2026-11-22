@@ -1,0 +1,48 @@
+#EXTM3U
+# Playlist FTA Publik Indonesia — diperbarui otomatis oleh nonton2020dirumah-gif/indoiptv
+# Butuh lebih lengkap + web player langsung? Trial gratis 4 jam: https://indoiptv.site/trial/?utm_source=github&utm_medium=m3u&utm_campaign=indoiptv_m3u
+
+#EXTINF:-1 tvg-id="TVRI.id" tvg-name="TVRI Nasional" group-title="TV Nasional",TVRI Nasional
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+
+#EXTINF:-1 tvg-id="TVRIWorld.id" tvg-name="TVRI World" group-title="TV Nasional",TVRI World
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-name="CNN Indonesia" group-title="Berita",CNN Indonesia
+https://video.detik.com/livecnn/smil:cnntv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-name="CNBC Indonesia" group-title="Berita",CNBC Indonesia
+https://video.detik.com/livecnbc/smil:cnbctv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-name="Metro TV" group-title="Berita",Metro TV
+https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BTV.id" tvg-name="BTV" group-title="Berita",BTV
+https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
+
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-name="Nusantara TV" group-title="TV Nasional",Nusantara TV
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DAAITV.id" tvg-name="DAAI TV" group-title="TV Nasional",DAAI TV
+https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+
+#EXTINF:-1 tvg-id="TVRIJakarta.id" tvg-name="TVRI Jakarta" group-title="TV Daerah",TVRI Jakarta
+https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
+
+#EXTINF:-1 tvg-id="TVRIJabar.id" tvg-name="TVRI Jawa Barat" group-title="TV Daerah",TVRI Jawa Barat
+https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
+
+#EXTINF:-1 tvg-id="TVRIJateng.id" tvg-name="TVRI Jawa Tengah" group-title="TV Daerah",TVRI Jawa Tengah
+https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
+
+#EXTINF:-1 tvg-id="TVRIJatim.id" tvg-name="TVRI Jawa Timur" group-title="TV Daerah",TVRI Jawa Timur
+https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
+
+#EXTINF:-1 tvg-id="TVRIYogyakarta.id" tvg-name="TVRI Yogyakarta" group-title="TV Daerah",TVRI Yogyakarta
+https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
+
+#EXTINF:-1 tvg-id="TVRIBali.id" tvg-name="TVRI Bali" group-title="TV Daerah",TVRI Bali
+https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
+
+#EXTINF:-1 tvg-id="TVRISumut.id" tvg-name="TVRI Sumatera Utara" group-title="TV Daerah",TVRI Sumatera Utara
+https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
